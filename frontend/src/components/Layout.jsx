@@ -11,7 +11,7 @@ const Layout = ({ onLogout }) => {
 
   const handleLogout = () => {
     onLogout();
-    navigate('/login');
+    navigate('/');
   };
 
   return (

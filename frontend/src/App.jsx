@@ -8,6 +8,7 @@ import Employees from './pages/Employees';
 import Departments from './pages/Departments';
 import Salaries from './pages/Salaries';
 import Reports from './pages/Reports';
+import Rounding from './pages/Rounding';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -76,6 +77,7 @@ function App() {
         <Route path="departments" element={<Departments />} />
         <Route path="salaries" element={<Salaries />} />
         <Route path="reports" element={<Reports />} />
+        <Route path="rounding" element={<Rounding />} />
       </Route>
     </Routes>
   );
